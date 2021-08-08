@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ');
+
+.base
+{
+position: absolute;
+width: 680px;
+height: 1080px;
+left: 0px;
+top: 0px;
+background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%) */
+}
+
+.image
+{
+position: absolute;
+width: 1620px;
+height: 1080px;
+left: 680px;
+top: 0px;
+background-image: url("summer.jpg");
+z-index:-1;
+}
+
+.top_bar
+{
+position: absolute;
+width: 375px;
+height: 66px;
+left: 0px;
+top: 0px;
+}
+
+.icon{
+position: absolute;
+width: 25px;
+height: 40px;
+left: 100px;
+top: 100px;
+background-image: url("logo.jpg");
+}
+
+.icontxt
+{
+position: absolute;
+width: 78px;
+height: 16px;
+left: 140px;
+top: 110px;
+}
+
+.heading
+{
+position: absolute;
+width: 399px;
+height: 44px;
+left: 140px;
+top: 374px;
+
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+color: #131821;
+}
+
+.subheading
+{
+position: absolute;
+width: 400px;
+height: 56px;
+left: 140px;
+top: 433px;
+}
+
+form .field{
+  position: absolute;
+  width: 663px;
+  height: 70px;
+  left: 100px;
+  top: 539px;
+  border-width: 1px 1px 1px 4px;
+  border-style: solid;
+  background-color: white;
+  border-color: #E3E3E4  #E3E3E4 #E3E3E4 #4066A5;
+
+}
+.field input{
+  width: 100%;
+  height: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding-left: 15px;
+  font-size: 18px;
+  outline: none;
+}
+.field .icons{
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.field .icons span{
+  height: 25px;
+  width: 25px;
+  border: 2px solid;
+  border-radius: 50%;
+  line-height: 25px;
+  display: none;
+}
+.field .icons span.icon1{
+  color: #e74c3c;
+  border-color: #e74c3c;
+}
+.field .icons span.icon2{
+  color: #27ae60;
+  border-color: #27ae60;
+}
+.error-text{
+  position: absolute;
+  width: 620px;
+  height: 20px;
+  left: 100px;
+  top: 539px;
+  margin: 55px 0 -5px 0;
+  background: #e74c3c;
+  color: #fceae8;
+  font-size: 18px;
+  padding: 18px;
+  border-radius: 5px;
+  user-select: none;
+  display: none;
+}
+form .error-text:before{
+  position: absolute;
+  content: '';
+  height: 15px;
+  width: 15px;
+  background: #e74c3c;
+  right: 20px;
+  top: -7px;
+  transform: rotate(45deg);
+  }
+
+form .error-text-2{
+    position: absolute;
+    width: 620px;
+    height: 20px;
+    left: 100px;
+    top: 539px;
+    margin: 55px 0 -5px 0;
+    background: #e74c3c;
+    color: #fceae8;
+    font-size: 18px;
+    padding: 18px;
+    border-radius: 5px;
+    user-select: none;
+    display: none;
+  }
+
+form .error-text-2:before{
+    position: absolute;
+    content: '';
+    height: 15px;
+    width: 15px;
+    background: #e74c3c;
+    right: 20px;
+    top: -7px;
+    transform: rotate(45deg);
+    }
+
+form .error-text-3{
+  position: absolute;
+  width: 620px;
+  height: 20px;
+  left: 100px;
+  top: 539px;
+  margin: 55px 0 -5px 0;
+  background: #e74c3c;
+  color: #fceae8;
+  font-size: 18px;
+  padding: 18px;
+  border-radius: 5px;
+  user-select: none;
+  display: none;
+  }
+
+form .error-text-3:before{
+  position: absolute;
+  content: '';
+  height: 15px;
+  width: 15px;
+  background: #e74c3c;
+  right: 20px;
+  top: -7px;
+  transform: rotate(45deg);
+}
+
+form .error-text-4{
+  position: absolute;
+  width: 620px;
+  height: 20px;
+  left: 100px;
+  top: 539px;
+  margin: 55px 0 -5px 0;
+  background: #e74c3c;
+  color: #fceae8;
+  font-size: 18px;
+  padding: 18px;
+  border-radius: 5px;
+  user-select: none;
+  display: none;
+}
+
+form .error-text-4:before{
+  position: absolute;
+  content: '';
+  height: 15px;
+  width: 15px;
+  background: #e74c3c;
+  right: 20px;
+  top: -7px;
+  transform: rotate(45deg);
+}
+
+form button{
+    margin-top: 700px;
+    margin-left: 300px;
+    width: 20%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #27ae60;
+    color: #f2f2f2;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: none;
+    transition: 0.3s;
+}
+
+form button:hover{
+    background: #219150;
+}
+
+.checkbox
+{
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 50px;
+  top: 320px;
+  background: #FFFFFF;
+}
+
+.checkbox:hover
+{
+  color:#4066A5;
+}
+
+.text
+{
+  position: absolute;
+  width: 70px;
+  height: 26px;
+  left: 90px;
+  top: 307px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6A707B;
+}
+
+.link4
+{
+  position: absolute;
+  width: 359px;
+  height: 26px;
+  left: 162px;
+  top: 323px;
+
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+color: #6A707B;
+}
+
+.ThankDiv
+{
+  position: absolute;
+  width: 400px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+  background-color: #ffff;
+  z-index: 1;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.li
+{
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+color: #6A707B;
+}
+
+.ho:hover
+{
+  color:#4066A5;
+}
+
+.li:focus
+{
+  color:#233759;
+}
+
+.link1 {
+  position: absolute;
+  width: 42px;
+  height: 26px;
+  left: 331px;
+  top: 114px;
+}
+
+.link2 {
+  position: absolute;
+  width: 91px;
+  height: 26px;
+  left: 403px;
+  top: 114px;
+}
+
+.link3 {
+  position: absolute;
+  width: 91px;
+  height: 26px;
+  left: 524px;
+  top: 114px;
+}
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 12px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  border: solid 2px #E3E3E4;
+}
+
+.fa-facebook
+{
+  position: absolute;
+  left: 218px;
+  top: 791px;
+}
+
+.fa-facebook:hover
+{
+background-color: #4267B2;
+color: white;
+}
+
+.fa-facebook:focus
+{
+background-color: #2F4A80;
+color: white;
+}
+
+.fa-instagram
+{
+  position: absolute;
+  left: 284px;
+  top: 791px;
+}
+
+.fa-instagram:hover
+{
+background-color: #C13584;
+color: white;
+}
+
+.fa-instagram:focus
+{
+background-color: #8F2762;
+color: white;
+}
+
+.fa-twitter
+{
+  position: absolute;
+  left: 350px;
+  top: 791px;
+}
+
+.fa-twitter:hover
+{
+background-color: #1DA1F2;
+color: white;
+}
+
+.fa-twitter:focus
+{
+background-color: #177FBF;
+color: white;
+}
+
+.fa-youtube-play
+{
+  position: absolute;
+  left: 416px;
+  top: 791px;
+}
+
+.fa-youtube-play:hover
+{
+  background-color: #FF0000;
+  color: white;
+}
+
+.fa-youtube-play:focus
+{
+  background-color: #CC0000;
+  color: white;
+}
+
+
+.btnDelete
+{
+  overflow:auto;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  color: #fff;
+  background-color: #aaabbb;
+  border-radius: 5px;
+  border: solid #cccccc 1px;
+  box-shadow: 2px 2px 1px #888888;
+  position: relative;
+  bottom: 0;
+}
+
+.line
+{
+position: absolute;
+width: 400px;
+height: 1px;
+left: 140px;
+top: 740px;
+
+background: #E3E3E4;
+}
